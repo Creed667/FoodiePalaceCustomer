@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>resource/271687.jpg</file>
+        <file>resource/6242651.jpg</file>
+        <file>resource/271694.jpg</file>
+        <file>resource/271701.jpg</file>
+        <file>resource/pexels-lukas-349610.jpg</file>
+        <file>resource/photo_2021-12-05_21-31-31.jpg</file>
+        <file>resource/photo_2021-12-09_13-18-25.jpg</file>
+        <file>resource/wood-2879254_1920.jpg</file>
+    </qresource>
+</RCC>
