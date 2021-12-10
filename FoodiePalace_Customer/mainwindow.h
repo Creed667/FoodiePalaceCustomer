@@ -20,6 +20,10 @@ private slots:
 
     void on_loginPageBackButton_clicked();
 
+    void on_registerPageBackButton_clicked();
+
+    void on_RegisterButton_clicked();
+
 private:
     Ui::MainWindow *ui;
 };
