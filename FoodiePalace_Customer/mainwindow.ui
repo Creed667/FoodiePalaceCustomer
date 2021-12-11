@@ -101,8 +101,8 @@
       </property>
       <property name="font">
        <font>
-        <pointsize>24</pointsize>
-        <bold>true</bold>
+        <pointsize>44</pointsize>
+        <bold>false</bold>
        </font>
       </property>
       <property name="text">
@@ -126,8 +126,8 @@
       </property>
       <property name="font">
        <font>
-        <pointsize>12</pointsize>
-        <bold>true</bold>
+        <pointsize>11</pointsize>
+        <bold>false</bold>
        </font>
       </property>
       <property name="cursor">
@@ -148,8 +148,8 @@
       </property>
       <property name="font">
        <font>
-        <pointsize>12</pointsize>
-        <bold>true</bold>
+        <pointsize>11</pointsize>
+        <bold>false</bold>
        </font>
       </property>
       <property name="cursor">
@@ -157,6 +157,19 @@
       </property>
       <property name="text">
        <string>Register</string>
+      </property>
+     </widget>
+     <widget class="QGraphicsView" name="FoodiePalaceLogo_3">
+      <property name="geometry">
+       <rect>
+        <x>905</x>
+        <y>340</y>
+        <width>221</width>
+        <height>111</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/img/resource/logo.png);</string>
       </property>
      </widget>
     </widget>
@@ -204,10 +217,10 @@
      <widget class="QLabel" name="loginPagLabel">
       <property name="geometry">
        <rect>
-        <x>390</x>
-        <y>90</y>
-        <width>261</width>
-        <height>51</height>
+        <x>191</x>
+        <y>190</y>
+        <width>211</width>
+        <height>81</height>
        </rect>
       </property>
       <property name="font">
@@ -226,7 +239,7 @@
      <widget class="QPushButton" name="loginPageLoginButton">
       <property name="geometry">
        <rect>
-        <x>100</x>
+        <x>140</x>
         <y>510</y>
         <width>331</width>
         <height>51</height>
@@ -234,9 +247,9 @@
       </property>
       <property name="font">
        <font>
-        <pointsize>12</pointsize>
+        <pointsize>11</pointsize>
         <italic>false</italic>
-        <bold>true</bold>
+        <bold>false</bold>
         <strikeout>false</strikeout>
        </font>
       </property>
@@ -278,7 +291,7 @@
      <widget class="QLineEdit" name="loginPagePassword">
       <property name="geometry">
        <rect>
-        <x>100</x>
+        <x>140</x>
         <y>420</y>
         <width>331</width>
         <height>51</height>
@@ -302,7 +315,7 @@
      <widget class="QLineEdit" name="loginPageUsername">
       <property name="geometry">
        <rect>
-        <x>100</x>
+        <x>140</x>
         <y>330</y>
         <width>331</width>
         <height>51</height>
@@ -329,7 +342,7 @@
      <widget class="QGraphicsView" name="graphicsView">
       <property name="geometry">
        <rect>
-        <x>70</x>
+        <x>110</x>
         <y>300</y>
         <width>391</width>
         <height>291</height>
@@ -342,6 +355,19 @@
        <enum>QFrame::Raised</enum>
       </property>
      </widget>
+     <widget class="QGraphicsView" name="FoodiePalaceLogo_2">
+      <property name="geometry">
+       <rect>
+        <x>905</x>
+        <y>340</y>
+        <width>221</width>
+        <height>111</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/img/resource/logo.png);</string>
+      </property>
+     </widget>
      <zorder>loginPage_2</zorder>
      <zorder>graphicsView</zorder>
      <zorder>loginPagLabel</zorder>
@@ -349,6 +375,7 @@
      <zorder>loginPageBackButton</zorder>
      <zorder>loginPagePassword</zorder>
      <zorder>loginPageUsername</zorder>
+     <zorder>FoodiePalaceLogo_2</zorder>
     </widget>
     <widget class="QWidget" name="registerPage">
      <widget class="QGraphicsView" name="registerPage2">
@@ -391,15 +418,14 @@
      <widget class="QLabel" name="RegisterLabel">
       <property name="geometry">
        <rect>
-        <x>70</x>
-        <y>150</y>
-        <width>431</width>
+        <x>114</x>
+        <y>110</y>
+        <width>391</width>
         <height>91</height>
        </rect>
       </property>
       <property name="font">
        <font>
-        <family>Stencil</family>
         <pointsize>41</pointsize>
         <bold>false</bold>
        </font>
@@ -411,8 +437,8 @@
      <widget class="QLineEdit" name="registerPageUsername">
       <property name="geometry">
        <rect>
-        <x>100</x>
-        <y>340</y>
+        <x>144</x>
+        <y>300</y>
         <width>331</width>
         <height>51</height>
        </rect>
@@ -432,8 +458,8 @@
      <widget class="QLineEdit" name="registerPageMobile">
       <property name="geometry">
        <rect>
-        <x>100</x>
-        <y>420</y>
+        <x>144</x>
+        <y>380</y>
         <width>331</width>
         <height>51</height>
        </rect>
@@ -453,8 +479,8 @@
      <widget class="QLineEdit" name="registerPagePassword">
       <property name="geometry">
        <rect>
-        <x>100</x>
-        <y>500</y>
+        <x>144</x>
+        <y>460</y>
         <width>331</width>
         <height>51</height>
        </rect>
@@ -477,8 +503,8 @@
      <widget class="QComboBox" name="registerPageGenderSelect">
       <property name="geometry">
        <rect>
-        <x>176</x>
-        <y>580</y>
+        <x>220</x>
+        <y>540</y>
         <width>84</width>
         <height>29</height>
        </rect>
@@ -524,8 +550,8 @@
      <widget class="QLabel" name="registerGenderLabel">
       <property name="geometry">
        <rect>
-        <x>100</x>
-        <y>577</y>
+        <x>144</x>
+        <y>537</y>
         <width>71</width>
         <height>31</height>
        </rect>
@@ -543,8 +569,8 @@
      <widget class="QLabel" name="registerGenderLabel_2">
       <property name="geometry">
        <rect>
-        <x>299</x>
-        <y>577</y>
+        <x>343</x>
+        <y>537</y>
         <width>41</width>
         <height>31</height>
        </rect>
@@ -562,8 +588,8 @@
      <widget class="QSpinBox" name="registerPageAgeBox">
       <property name="geometry">
        <rect>
-        <x>346</x>
-        <y>580</y>
+        <x>390</x>
+        <y>540</y>
         <width>84</width>
         <height>29</height>
        </rect>
@@ -586,11 +612,17 @@
      <widget class="QGraphicsView" name="registerPageRegisterFrame">
       <property name="geometry">
        <rect>
-        <x>70</x>
-        <y>260</y>
+        <x>114</x>
+        <y>220</y>
         <width>391</width>
         <height>471</height>
        </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <kerning>true</kerning>
+       </font>
       </property>
       <property name="frameShape">
        <enum>QFrame::WinPanel</enum>
@@ -608,27 +640,48 @@
        <enum>QGraphicsView::NoDrag</enum>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton">
+     <widget class="QPushButton" name="regiterPageRegisterButton">
       <property name="geometry">
        <rect>
-        <x>131</x>
-        <y>642</y>
+        <x>175</x>
+        <y>602</y>
         <width>263</width>
         <height>47</height>
        </rect>
       </property>
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
       <property name="text">
-       <string>PushButton</string>
+       <string>Register</string>
       </property>
      </widget>
      <widget class="QGraphicsView" name="FoodiePalaceLogo">
       <property name="geometry">
        <rect>
-        <x>770</x>
-        <y>360</y>
-        <width>256</width>
-        <height>192</height>
+        <x>905</x>
+        <y>340</y>
+        <width>221</width>
+        <height>111</height>
        </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/img/resource/logo.png);</string>
+      </property>
+     </widget>
+     <widget class="QGraphicsView" name="userpfpGraphicsView">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>240</y>
+        <width>51</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
       </property>
      </widget>
      <zorder>registerPage2</zorder>
@@ -642,8 +695,21 @@
      <zorder>registerGenderLabel</zorder>
      <zorder>registerGenderLabel_2</zorder>
      <zorder>registerPageAgeBox</zorder>
-     <zorder>pushButton</zorder>
+     <zorder>regiterPageRegisterButton</zorder>
      <zorder>FoodiePalaceLogo</zorder>
+     <zorder>userpfpGraphicsView</zorder>
+    </widget>
+    <widget class="QWidget" name="DashboardPage">
+     <widget class="QGraphicsView" name="DashboardGraphicsView">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1200</width>
+        <height>800</height>
+       </rect>
+      </property>
+     </widget>
     </widget>
    </widget>
   </widget>
