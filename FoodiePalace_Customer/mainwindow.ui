@@ -391,7 +391,7 @@
      <widget class="QLabel" name="RegisterLabel">
       <property name="geometry">
        <rect>
-        <x>90</x>
+        <x>70</x>
         <y>150</y>
         <width>431</width>
         <height>91</height>
@@ -399,6 +399,7 @@
       </property>
       <property name="font">
        <font>
+        <family>Stencil</family>
         <pointsize>41</pointsize>
         <bold>false</bold>
        </font>
@@ -607,43 +608,27 @@
        <enum>QGraphicsView::NoDrag</enum>
       </property>
      </widget>
-     <widget class="QPushButton" name="registerPageRegisterButton">
+     <widget class="QPushButton" name="pushButton">
       <property name="geometry">
        <rect>
-        <x>113</x>
-        <y>650</y>
-        <width>302</width>
-        <height>41</height>
+        <x>131</x>
+        <y>642</y>
+        <width>263</width>
+        <height>47</height>
        </rect>
       </property>
-      <property name="font">
-       <font>
-        <pointsize>11</pointsize>
-       </font>
-      </property>
-      <property name="cursor">
-       <cursorShape>PointingHandCursor</cursorShape>
-      </property>
-      <property name="mouseTracking">
-       <bool>false</bool>
-      </property>
-      <property name="focusPolicy">
-       <enum>Qt::StrongFocus</enum>
-      </property>
-      <property name="autoFillBackground">
-       <bool>false</bool>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgba(255, 255, 255,0);</string>
-      </property>
       <property name="text">
-       <string>Regsiter</string>
+       <string>PushButton</string>
       </property>
-      <property name="default">
-       <bool>false</bool>
-      </property>
-      <property name="flat">
-       <bool>false</bool>
+     </widget>
+     <widget class="QGraphicsView" name="FoodiePalaceLogo">
+      <property name="geometry">
+       <rect>
+        <x>770</x>
+        <y>360</y>
+        <width>256</width>
+        <height>192</height>
+       </rect>
       </property>
      </widget>
      <zorder>registerPage2</zorder>
@@ -657,7 +642,8 @@
      <zorder>registerGenderLabel</zorder>
      <zorder>registerGenderLabel_2</zorder>
      <zorder>registerPageAgeBox</zorder>
-     <zorder>registerPageRegisterButton</zorder>
+     <zorder>pushButton</zorder>
+     <zorder>FoodiePalaceLogo</zorder>
     </widget>
    </widget>
   </widget>
