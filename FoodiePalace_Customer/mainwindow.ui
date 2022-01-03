@@ -59,7 +59,7 @@
      </size>
     </property>
     <property name="currentIndex">
-     <number>4</number>
+     <number>3</number>
     </property>
     <widget class="QWidget" name="welcomePage">
      <widget class="QGraphicsView" name="welcomePage2">
@@ -766,6 +766,9 @@
         <pointsize>11</pointsize>
        </font>
       </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
       <property name="text">
        <string>profile</string>
       </property>
@@ -778,6 +781,9 @@
         <width>51</width>
         <height>51</height>
        </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
       </property>
       <property name="styleSheet">
        <string notr="true">border-image: url(:/img/resource/icons8-exit-100.png);</string>
@@ -795,6 +801,9 @@
         <height>221</height>
        </rect>
       </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
       <property name="text">
        <string>Menu</string>
       </property>
@@ -807,6 +816,9 @@
         <width>231</width>
         <height>221</height>
        </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
       </property>
       <property name="text">
        <string>Cart</string>
@@ -821,6 +833,9 @@
         <height>221</height>
        </rect>
       </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
       <property name="text">
        <string>History</string>
       </property>
@@ -833,6 +848,9 @@
         <width>231</width>
         <height>221</height>
        </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
       </property>
       <property name="text">
        <string>About Us</string>
@@ -862,6 +880,12 @@
         <height>800</height>
        </rect>
       </property>
+      <property name="font">
+       <font>
+        <family>Segoe Script</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
      </widget>
      <widget class="QListView" name="menuListFoodView">
       <property name="geometry">
@@ -876,14 +900,20 @@
        <string notr="true"/>
       </property>
      </widget>
-     <widget class="QPushButton" name="cartView">
+     <widget class="QPushButton" name="cartViewIconButton">
       <property name="geometry">
        <rect>
-        <x>1090</x>
-        <y>40</y>
+        <x>1079</x>
+        <y>70</y>
         <width>51</width>
         <height>51</height>
        </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/img/resource/groceries.png);</string>
       </property>
       <property name="text">
        <string/>
@@ -892,16 +922,18 @@
      <widget class="QLabel" name="orderCountLabel">
       <property name="geometry">
        <rect>
-        <x>1128</x>
-        <y>31</y>
+        <x>1120</x>
+        <y>62</y>
         <width>24</width>
         <height>24</height>
        </rect>
       </property>
       <property name="font">
        <font>
-        <pointsize>10</pointsize>
+        <family>Segoe UI</family>
+        <pointsize>8</pointsize>
         <bold>true</bold>
+        <strikeout>false</strikeout>
        </font>
       </property>
       <property name="styleSheet">
@@ -948,6 +980,12 @@
        <string>Food Menu</string>
       </property>
      </widget>
+     <zorder>manuPageGraphicsView</zorder>
+     <zorder>menuListFoodView</zorder>
+     <zorder>cartViewIconButton</zorder>
+     <zorder>pushButton</zorder>
+     <zorder>menuPageTitle</zorder>
+     <zorder>orderCountLabel</zorder>
     </widget>
     <widget class="QWidget" name="cartViewPage">
      <widget class="QGraphicsView" name="cartPageGraphicsView">
