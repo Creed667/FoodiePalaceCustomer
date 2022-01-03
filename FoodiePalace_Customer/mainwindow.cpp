@@ -6,7 +6,7 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    ui->stackedWidget->setCurrentIndex(0);
+    ui->stackedWidget->setCurrentIndex(3);
 
 }
 
@@ -67,12 +67,25 @@ void MainWindow::on_cartPageBackButton_clicked()
 // back button of about us page
 void MainWindow::on_pushButton_2_clicked()
 {
-    ui->stackedWidget->setCurrentIndex(3);
+    ui->stackedWidget->setCurrentIndex(3); //back button in about us page
+
 }
 
 
 void MainWindow::on_aboutUsButton_clicked()
 {
     ui->stackedWidget->setCurrentIndex(6);
+}
+
+
+void MainWindow::on_historyPageBackButton_clicked()
+{
+    ui->stackedWidget->setCurrentIndex(3);
+}
+
+
+void MainWindow::on_historyButton_clicked()
+{
+    ui->stackedWidget->setCurrentIndex(7);
 }
 

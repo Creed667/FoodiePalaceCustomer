@@ -36,6 +36,10 @@ private slots:
 
     void on_aboutUsButton_clicked();
 
+    void on_historyPageBackButton_clicked();
+
+    void on_historyButton_clicked();
+
 private:
     Ui::MainWindow *ui;
 };
