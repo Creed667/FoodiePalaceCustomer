@@ -58,3 +58,15 @@ void MainWindow::on_cartViewIconButton_clicked()
     ui->stackedWidget->setCurrentIndex(5);
 }
 
+
+void MainWindow::on_cartPageBackButton_clicked()
+{
+    ui->stackedWidget->setCurrentIndex(3);
+}
+
+// back button of about us page
+void MainWindow::on_pushButton_2_clicked()
+{
+    ui->stackedWidget->setCurrentIndex(3);
+}
+

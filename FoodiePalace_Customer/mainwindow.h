@@ -30,6 +30,10 @@ private slots:
 
     void on_cartViewIconButton_clicked();
 
+    void on_cartPageBackButton_clicked();
+
+    void on_pushButton_2_clicked();
+
 private:
     Ui::MainWindow *ui;
 };

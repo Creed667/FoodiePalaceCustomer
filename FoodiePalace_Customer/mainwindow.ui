@@ -59,7 +59,7 @@
      </size>
     </property>
     <property name="currentIndex">
-     <number>4</number>
+     <number>6</number>
     </property>
     <widget class="QWidget" name="welcomePage">
      <widget class="QGraphicsView" name="welcomePage2">
@@ -882,7 +882,6 @@
       </property>
       <property name="font">
        <font>
-        <family>Segoe Script</family>
         <pointsize>20</pointsize>
        </font>
       </property>
@@ -903,8 +902,8 @@
      <widget class="QPushButton" name="cartViewIconButton">
       <property name="geometry">
        <rect>
-        <x>1079</x>
-        <y>70</y>
+        <x>1089</x>
+        <y>48</y>
         <width>51</width>
         <height>51</height>
        </rect>
@@ -922,28 +921,34 @@
      <widget class="QLabel" name="orderCountLabel">
       <property name="geometry">
        <rect>
-        <x>1120</x>
-        <y>62</y>
+        <x>1130</x>
+        <y>40</y>
         <width>24</width>
         <height>24</height>
        </rect>
       </property>
       <property name="font">
        <font>
-        <family>Segoe UI</family>
-        <pointsize>8</pointsize>
+        <pointsize>9</pointsize>
+        <italic>false</italic>
         <bold>true</bold>
         <strikeout>false</strikeout>
+        <kerning>true</kerning>
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">border-image: url(:/img/resource/toppng.com-red-circle-2000x2000.png);</string>
+       <string notr="true">border-image: url(:/img/resource/toppng.com-red-circle-2000x2000.png);
+color: rgb(255, 255, 255);
+font: 700 9pt &quot;Segoe UI&quot;;</string>
       </property>
       <property name="frameShape">
        <enum>QFrame::Box</enum>
       </property>
       <property name="text">
        <string>11</string>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::AutoText</enum>
       </property>
       <property name="alignment">
        <set>Qt::AlignCenter</set>
@@ -1098,7 +1103,426 @@
       </property>
      </widget>
     </widget>
-    <widget class="QWidget" name="profileEdit"/>
+    <widget class="QWidget" name="aboutUsPage">
+     <widget class="QGraphicsView" name="aboutUsGraphicsView">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1200</width>
+        <height>800</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QGraphicsView" name="graphicsView_2">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>170</y>
+        <width>371</width>
+        <height>511</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QGraphicsView" name="graphicsView_3">
+      <property name="geometry">
+       <rect>
+        <x>700</x>
+        <y>170</y>
+        <width>371</width>
+        <height>511</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>110</y>
+        <width>201</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Foodie Palace</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>760</x>
+        <y>100</y>
+        <width>261</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Developer's Info</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>200</y>
+        <width>321</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Location: 2 no gate, biplopi uddyan, chittagong , Bangladesh</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>320</y>
+        <width>321</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>phone: 01234567891</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>390</y>
+        <width>331</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Email: foodiePalace@gmail.com</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>450</y>
+        <width>321</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Facebook page: Foodie Palace</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>500</y>
+        <width>321</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Twitter: @foodiepalace144</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_8">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>570</y>
+        <width>291</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Youtube: Foodie Palace</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_9">
+      <property name="geometry">
+       <rect>
+        <x>720</x>
+        <y>190</y>
+        <width>331</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Team: qmake_Duo</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_10">
+      <property name="geometry">
+       <rect>
+        <x>720</x>
+        <y>260</y>
+        <width>331</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Dev 1: Fahim Nizamee</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_11">
+      <property name="geometry">
+       <rect>
+        <x>790</x>
+        <y>310</y>
+        <width>151</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>ID: </string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_12">
+      <property name="geometry">
+       <rect>
+        <x>790</x>
+        <y>350</y>
+        <width>151</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>phone: </string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_13">
+      <property name="geometry">
+       <rect>
+        <x>790</x>
+        <y>390</y>
+        <width>151</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>email: </string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_14">
+      <property name="geometry">
+       <rect>
+        <x>720</x>
+        <y>460</y>
+        <width>331</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Dev 2: Junaid Al Mahin</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_15">
+      <property name="geometry">
+       <rect>
+        <x>780</x>
+        <y>510</y>
+        <width>151</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>ID: C211091</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_16">
+      <property name="geometry">
+       <rect>
+        <x>780</x>
+        <y>540</y>
+        <width>171</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>phone: 01616301435</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_17">
+      <property name="geometry">
+       <rect>
+        <x>780</x>
+        <y>570</y>
+        <width>271</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>email: junaid121dark@gmail.com</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_18">
+      <property name="geometry">
+       <rect>
+        <x>530</x>
+        <y>40</y>
+        <width>151</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>About us</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>40</y>
+        <width>111</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>&lt;Back</string>
+      </property>
+     </widget>
+    </widget>
    </widget>
   </widget>
  </widget>
