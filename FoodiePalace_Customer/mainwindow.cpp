@@ -40,3 +40,21 @@ void MainWindow::on_RegisterButton_clicked()
     ui->stackedWidget->setCurrentIndex(2);
 }
 
+
+void MainWindow::on_cartButton_clicked()
+{
+    ui->stackedWidget->setCurrentIndex(5);
+}
+
+
+void MainWindow::on_menuButton_clicked()
+{
+    ui->stackedWidget->setCurrentIndex(4);
+}
+
+
+void MainWindow::on_cartViewIconButton_clicked()
+{
+    ui->stackedWidget->setCurrentIndex(5);
+}
+

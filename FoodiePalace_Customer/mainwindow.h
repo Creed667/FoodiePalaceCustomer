@@ -24,6 +24,12 @@ private slots:
 
     void on_RegisterButton_clicked();
 
+    void on_cartButton_clicked();
+
+    void on_menuButton_clicked();
+
+    void on_cartViewIconButton_clicked();
+
 private:
     Ui::MainWindow *ui;
 };
